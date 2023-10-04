@@ -11,10 +11,15 @@ AutophiGen is a general purpose phylogenetic analysis program which can automate
 ### DISCLAIMER:
 This program is initially made as a final project for Harvard's CS50P coursework. It fulfills basic need but is in no way viable enough to be used for publication and academic writing (as of now!)
 
+## Setup:
+1. Download the repository in zip format and unzip into a folder.
+2. Open terminal and change directory to unzipped folder.
+3. Enter the command ```pip install -r requirements.txt``` to install required packages for AutophiGen to run.
+
 ## Usage:
 AutophiGen is a python program and is open to run using python interpreter. The usage format for AutophiGen is: 
 ```
-    autophigen.py -i [input file] -e [email address]
+autophigen.py -i [input file] -e [email address]
 ```
 You can also use ```autophigen.py -h``` to look for arguement options.
 
