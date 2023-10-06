@@ -7,31 +7,31 @@ AutophiGen is a general purpose phylogenetic analysis program which can automate
 * doing multiple sequence alignment using MUSCLE
 * devise a simple phylogenetic tree using EMBL-EBI APIs
 * gives output of phylogenetic tree in GUI using ete3
-
 ### DISCLAIMER:
-This program is initially made as a final project for Harvard's CS50P coursework. It fulfills basic need but is in no way viable enough to be used for publication and academic writing (as of now!)
-
+This program is initially made as a final project for Harvard's CS50P coursework. It fulfills basic need but is in no way reliable enough to be used for publication and academic writing (as of now!)
 ## Setup:
 1. Download the repository in zip format and unzip into a folder.
 2. Open terminal and change directory to unzipped folder.
 3. Enter the command ```pip install -r requirements.txt``` to install required packages for AutophiGen to run.
-
 ## Usage:
 AutophiGen is a python program and is open to run using python interpreter. The usage format for AutophiGen is: 
 ```
 autophigen.py -i [input file] -e [email address]
 ```
-You can also use ```autophigen.py -h``` to look for arguement options. <br>
+You can also use ```autophigen.py -h``` to look for arguement options.
 > [!NOTE]
-> Input sequences should be in a fasata file. <br>
+> Input sequences should be in a fasata file.
+
 > [!NOTE]
-> AutophiGen can take multiple sequences as input in a single file as it have parsing functions to handle and process multiple sequences. <br>
+> AutophiGen can take multiple sequences as input in a single file as it have parsing functions to handle and process multiple sequences.
+ 
 > [!IMPORTANT]
-> Check requirements.txt to install and update modules and their dependencies to the required version to run the analysis smoothly. <br>
+> Check requirements.txt to install and update modules and their dependencies to the required version to run the analysis smoothly.
+
 > [!IMPORTANT]
 > If facing error [SSL: CETIFICATE_VERIFY_FAILED]. It is Python 3.x for MacOS does not relying on MacOS SSL certificates. Kindly do the following to reolve this issue:
 > 1. Navigate to Application/Python 3.x in Finder. You will see a command file shipped with python named "Install certificates.command".
-> 2. Run the command file. It will simply install the certificates using pip. <br>
+> 2. Run the command file. It will simply install the certificates using pip.
 ## Known Errors and shortcomings:
 The errors are mostly resolvable and are present due to my lack of experience as a beginner. Below mentioned are things which I would like to improve in this program:
 1. Running BLAST can be a bit slow due to usage of Biopython's qblast module to access BLAST APIs.
