@@ -21,30 +21,23 @@ AutophiGen is a python program and is open to run using python interpreter. The 
 ```
 autophigen.py -i [input file] -e [email address]
 ```
-You can also use ```autophigen.py -h``` to look for arguement options.
-
+You can also use ```autophigen.py -h``` to look for arguement options. <br>
 > [!NOTE]
-> Input sequences should be in a fasata file.
-
+> Input sequences should be in a fasata file. <br>
 > [!NOTE]
-> AutophiGen can take multiple sequences as input in a single file as it have parsing functions to handle and process multiple sequences.
-
+> AutophiGen can take multiple sequences as input in a single file as it have parsing functions to handle and process multiple sequences. <br>
 > [!IMPORTANT]
-> Check requirements.txt to install and update modules and their dependencies to the required version to run the analysis smoothly.
-
+> Check requirements.txt to install and update modules and their dependencies to the required version to run the analysis smoothly. <br>
 > [!IMPORTANT]
 > If facing error [SSL: CETIFICATE_VERIFY_FAILED]. It is Python 3.x for MacOS does not relying on MacOS SSL certificates. Kindly do the following to reolve this issue:
 > 1. Navigate to Application/Python 3.x in Finder. You will see a command file shipped with python named "Install certificates.command".
-> 2. Run the command file. It will simply install the certificates using pip.
-
+> 2. Run the command file. It will simply install the certificates using pip. <br>
 ## Known Errors and shortcomings:
 The errors are mostly resolvable and are present due to my lack of experience as a beginner. Below mentioned are things which I would like to improve in this program:
 1. Running BLAST can be a bit slow due to usage of Biopython's qblast module to access BLAST APIs.
-2. Program may give some errors which I have not recieved during my testing runs or need some in-depth technical knowledge to induce and test.
-
+2. Program may give some errors which I have not recieved during my testing runs or need some in-depth technical knowledge to induce and test.<br>
 > [!NOTE]
-> If facing any errors in the program, kindly inform me of the same by mail on adnanraza3435@gmail.com.
-
+> If facing any errors in the program, kindly inform me of the same by mail on adnanraza3435@gmail.com. <br>
 ## Thank You for trying and using this program!
 
 
