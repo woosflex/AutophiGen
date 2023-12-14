@@ -16,7 +16,7 @@ AutophiGen is a python program and is open to run using python interpreter. The 
 ```
 You can also use ```autophigen.py -h``` to look for arguement options.
 > [!NOTE]
-> Input sequences should be in a fasata file.
+> Input sequences should be in a fasta file.
 
 > [!NOTE]
 > AutophiGen can take multiple sequences as input in a single file as it have parsing functions to handle and process multiple sequences.
@@ -25,7 +25,7 @@ You can also use ```autophigen.py -h``` to look for arguement options.
 > Check requirements.txt to install and update modules and their dependencies to the required version to run the analysis smoothly.
 
 > [!IMPORTANT]
-> If facing error [SSL: CETIFICATE_VERIFY_FAILED]. It is Python 3.x for MacOS does not relying on MacOS SSL certificates. Kindly do the following to reolve this issue:
+> If facing error [SSL: CETIFICATE_VERIFY_FAILED]. It is error caused by Python 3.x for MacOS as it does not rely on MacOS SSL certificates. Kindly do the following to reolve this issue:
 > 1. Navigate to Application/Python 3.x in Finder. You will see a command file shipped with python named "Install certificates.command".
 > 2. Run the command file. It will simply install the certificates using pip.
 ## Known Errors and shortcomings:
